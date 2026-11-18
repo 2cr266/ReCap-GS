@@ -1,0 +1,19 @@
+name: recap-gs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.13
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - cudatoolkit=11.6
+  - numpy<2
+  - pillow<10
+  - plyfile
+  - tqdm
+  - websockets
+  - ninja
+  - pip=22.3.1
+  - pip:
+      - timm==0.4.12
